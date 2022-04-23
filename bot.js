@@ -13,7 +13,7 @@ bot.start(ctx=>{
         {
             reply_markup: {
                 inline_keyboard: [
-                    [{text: "Botlarımız 👨🏻‍💻",callback_data: "@teammusicixBot"},{text: "Haqqımızda ℹ",callback_data: "musiqi botu"}],
+                    [{text: "Botlarımız 👨🏻‍💻",callback_data: "teammusicixBot"},{text: "Haqqımızda ℹ",callback_data: "musiqi botu"}],
                     [{text: "Kanalımız 🇦🇿",url: "https://t.me/texnoteamm"}]
                 ]
             }
@@ -55,7 +55,7 @@ bot.action("yenidenstart",ctx=>{
         {
             reply_markup: {
                 inline_keyboard: [
-                    [{text: "Botlarımız 👨🏻‍💻",callback_data: "@Teammusici2Bot"},{text: "musiqi bot 2 ℹ",callback_data: "haqqimizda"}],
+                    [{text: "Botlarımız 👨🏻‍💻",callback_data: "Teammusici2Bot"},{text: "musiqi bot 2 ℹ",callback_data: "haqqimizda"}],
                     [{text: "Kanalımız 🇦🇿",url: "https://t.me/texnoteamm"}]
                 ]
             }
@@ -70,7 +70,7 @@ bot.action("bot",ctx=>{
         {
             reply_markup: {
                 inline_keyboard: [
-                    [{text: " Sizin tag bot adı",callback_data: "@texnotagger_bot"},{text: "🇦🇿 Sizin Music bot",callback_data: "@Teammusici2Bot"}],
+                    [{text: " Sizin tag bot adı",callback_data: "texnotagger_bot"},{text: "🇦🇿 Sizin Music bot",callback_data: "Teammusici2Bot"}],
                     [{text: "Kanalımız 🇦🇿",url: "https://t.me/texnoteamm"}]
                 ]
             }
